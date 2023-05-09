@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
-//import data from '../data.js';
 import { useEffect, useReducer, useState } from 'react';
 import axios from 'axios';
-import logger from 'use-reducer-logger';
+import logger from './logger';
+//import data from '../data.js';
+//import logger from 'use-reducer-logger';
+
 const reducer = (state, action) => {
   switch (action.type) {
     case 'FETCH_REQUEST':
