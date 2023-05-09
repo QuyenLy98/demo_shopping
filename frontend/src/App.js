@@ -13,13 +13,15 @@ function App() {
           <Navbar bg="dark" variant="dark">
             <Container>
               <LinkContainer to="/">
-                <Link to="/">amazona</Link>
+                <Link to="/">
+                  <i className="fa-solid fa-house-heart"> amazona</i>
+                </Link>
               </LinkContainer>
             </Container>
           </Navbar>
         </header>
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />

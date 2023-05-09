@@ -47,9 +47,13 @@ main {
 }
 
 .rating span {
-  color: yellow;
+  color: rgba(243, 243, 22, 0.836);
 }
 .btn-primary {
   background-color: yellow;
   color: black;
+}
+
+.img-large {
+  max-width: 100%;
 }

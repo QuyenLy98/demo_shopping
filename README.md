@@ -47,3 +47,7 @@ Lessons
     11.1. create rating component
     11.2. create product component
     11.3. use rating component in product component
+
+12. Create Product Details Screen
+    12.1. Fetch product from backend
+    12.2. Create 3 column for image, info and action
