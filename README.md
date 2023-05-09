@@ -72,3 +72,8 @@ Lessons
     16.1. create 2 columns
     16.2. display items list
     16.3. create action column
+
+17. Complete Cart Screen
+    17.1. click handler for inc/dec item
+    17.2. click handler for remove item
+    17.3. click handler for checkout
