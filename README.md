@@ -42,3 +42,8 @@ Lessons
 10. Add bootstrap UI Framework
     10.1. npm install react-bootstrap bootstrap@5.1.3
     10.2. update App.js
+
+11. Create Product and Rating Component
+    11.1. create rating component
+    11.2. create product component
+    11.3. use rating component in product component

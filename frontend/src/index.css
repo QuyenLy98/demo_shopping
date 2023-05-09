@@ -16,11 +16,11 @@ body {
   padding: 1rem;
 } */
 
-header a {
+/* header a {
   color: white;
   font-weight: bold;
   text-decoration: none;
-}
+} */
 
 main {
   flex: 1;
@@ -44,4 +44,12 @@ main {
 
 .product-info {
   padding: 1rem;
+}
+
+.rating span {
+  color: yellow;
+}
+.btn-primary {
+  background-color: yellow;
+  color: black;
 }
