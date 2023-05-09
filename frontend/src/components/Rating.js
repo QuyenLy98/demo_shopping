@@ -6,7 +6,7 @@ function Rating(props) {
         <i
           className={
             rating >= 1
-              ? 'fa-s fa-star'
+              ? 'fas fa-star'
               : rating >= 0.5
               ? 'fas fa-star-half-alt'
               : 'far fa-star'

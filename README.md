@@ -57,3 +57,9 @@ Lessons
     13.2. use spinner component
     13.3. create message component
     13.4. create utils.js to define getError function
+
+14. Implement Add To Cart
+    14.1. create React Contexxt
+    14.2. Define reducer
+    14.3. create store provider
+    14.4. implement add to cart button click handler
