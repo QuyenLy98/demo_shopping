@@ -63,6 +63,12 @@ Lessons
     14.2. Define reducer
     14.3. create store provider
     14.4. implement add to cart button click handler
+
 15. Complete Add To Cart
     15.1. check exist item in the cart
     15.2. check count in stock in backend
+
+16. Create Cart Screen
+    16.1. create 2 columns
+    16.2. display items list
+    16.3. create action column
