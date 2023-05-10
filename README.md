@@ -82,3 +82,11 @@ Lessons
     18.1. Create sign in form
     18.2. add email and password
     18.3. add signin button
+
+19. Connect To MongoDB Database
+    19.1. create atlas mongodb database
+    19.2. install local mongodb database
+    19.3. npm install mongoose
+    19.4. connect to mongodb database
+
+mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites=true&w=majority
