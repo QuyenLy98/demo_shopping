@@ -97,3 +97,8 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
     20.3. create seed route
     20.4. use route in server.js
     20.5. seed sample product
+
+21. Seed Sample Users
+    21.1. create user model
+    21.2. seed sample users
+    21.3. create user routes
