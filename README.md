@@ -90,3 +90,10 @@ Lessons
     19.4. connect to mongodb database
 
 mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites=true&w=majority
+
+20. Seed Sample Data
+    20.1. create Product model
+    20.2. create User model
+    20.3. create seed route
+    20.4. use route in server.js
+    20.5. seed sample product
