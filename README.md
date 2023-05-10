@@ -102,3 +102,8 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
     21.1. create user model
     21.2. seed sample users
     21.3. create user routes
+
+22. Create Signin Backend API
+    22.1. create signin api
+    22.2. npm install jsonwebtoken
+    22.3. define generateToken
