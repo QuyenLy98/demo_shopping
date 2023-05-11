@@ -1,6 +1,6 @@
 import { useContext, useEffect, useReducer } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import logger from './logger';
+//import logger from './logger';
 import axios from 'axios';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -33,7 +33,7 @@ function ProductScreen() {
   const params = useParams();
   const { slug } = params;
 
-  const [{ loading, error, product }, dispatch] = useReducer(logger(reducer), {
+  const [{ loading, error, product }, dispatch] = useReducer(reducer, {
     product: [],
     loading: true,
     error: '',

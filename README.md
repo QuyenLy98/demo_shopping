@@ -126,3 +126,17 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
 26. Implement Select Payment Method Screen
     26.1. Create input forms
     26.2. handle submit
+
+27. Create Place Order Screen
+    27.1. show cart items, payment and address
+    27.2. handle place order action
+    27.3. create order create api
+
+28. Implement Place Order Action
+    28.1. handle place order action
+    28.2. create order create api
+
+29. Create Order Screen
+    29.1. Create backend api for order/:id
+    29.2. fetch order api in frontend
+    29.3. show order information in 2 cloumns
