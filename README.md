@@ -112,3 +112,17 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
     23.1. handle submit action
     23.2. save token in store and local storage
     23.3. show user name in header
+
+24. Create Shipping Screen
+    24.1. create form inputs
+    24.2. handle save shipping address
+    24.3. add checkout wizard bar
+
+25. Create Signin Up Screen
+    25.1. create input forms
+    25.2. handle submit
+    25.3. create backend api
+
+26. Implement Select Payment Method Screen
+    26.1. Create input forms
+    26.2. handle submit
