@@ -140,3 +140,14 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
     29.1. Create backend api for order/:id
     29.2. fetch order api in frontend
     29.3. show order information in 2 cloumns
+
+30. Pay Order By PayPal
+    30.1. generate paypal client id
+    30.2. create api to return client id
+    30.3. install react-paypal-js
+    30.4. use PayPalScriptProvider in index.js
+    30.5. use usePayPalScriptReducer in Order Screen
+    30.6. implement loadPaypalScript function
+    30.7. render paypal button
+    30.8. implement onApprove payment function
+    30.9. create pay order api in backend
