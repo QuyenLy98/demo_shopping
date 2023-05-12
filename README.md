@@ -162,3 +162,12 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
     32.2. show user information
     32.3. create user update api
     32.4. update user info
+
+33. Publish To Heroku
+    33.1. create and config node project
+    33.2. serve build folder in frontend folder
+    33.3. create heroku account
+    33.4. connect it to github
+    33.5. create mongodb atlas database
+    33.6. Set database connection in heroku env variables
+    33.7. Commit and push

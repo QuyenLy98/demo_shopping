@@ -1,5 +1,5 @@
 import express from 'express';
-import data from './data.js';
+//import path from 'path'; //1
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import seedRouter from './routes/seedRoutes.js';
@@ -31,6 +31,16 @@ app.use('/api/seed', seedRouter);
 app.use('/api/products', productRouter);
 app.use('/api/users', userRouter);
 app.use('/api/orders', orderRouter);
+
+// const __dirname = path.resolve(); //2
+// app.use(express.static(path.join(__dirname, '/frontend/build'))); //3
+// app.get(
+//   '*',
+//   (
+//     req,
+//     res //4
+//   ) => res.sendFile(path.join(__dirname, '/frontend/build/index.html')) //5
+// ); //6
 
 app.use((err, req, res, next) => {
   res.status(500).send({ message: err.message });
