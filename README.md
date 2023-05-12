@@ -151,3 +151,8 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
     30.7. render paypal button
     30.8. implement onApprove payment function
     30.9. create pay order api in backend
+
+31. Display Order History
+    31.1. create order screen
+    31.2. create order history api
+    31.3. use api in the front-end
