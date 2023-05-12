@@ -171,3 +171,7 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
     33.5. create mongodb atlas database
     33.6. Set database connection in heroku env variables
     33.7. Commit and push
+
+34. Add Sidebar and Search Box
+    34.1. add sidebar
+    34.2. add search box

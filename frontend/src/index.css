@@ -49,7 +49,8 @@ main {
 .rating span {
   color: rgba(243, 243, 22, 0.836);
 }
-.btn-primary {
+.btn-primary,
+.btn-outline-primary {
   background-color: yellow;
   color: black;
 }
@@ -73,4 +74,26 @@ main {
 .checkout-steps > div.active {
   border-bottom: 0.2rem solid #f08000;
   color: #f08000;
+}
+
+/*Side Bar*/
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
 }
