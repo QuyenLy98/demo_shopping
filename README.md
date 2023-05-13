@@ -175,3 +175,8 @@ mongodb+srv://quyen:quyen123456@cluster0.taps1ld.mongodb.net/amazona?retryWrites
 34. Add Sidebar and Search Box
     34.1. add sidebar
     34.2. add search box
+
+35. Create Search Screen
+    35.1. show filters
+    35.2. create api for searching products
+    35.3. display results
